@@ -1,0 +1,317 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load staticfiles %}
+
+		<!-- start Main Wrapper -->
+		<div class="main-wrapper">
+
+			<div class="breadcrumb-wrapper">
+			
+				<div class="container">
+
+					<div class="row">
+					
+						<div class="col-xs-12 col-sm-8">
+							<!-- <ol class="breadcrumb">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Page</a></li>
+								<li class="active">About Us</li>
+							</ol> -->
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="equal-content-sidebar-by-gridLex">
+	
+				<div class="container">
+				
+					<div class="GridLex-grid-noGutter-equalHeight">
+						
+						<div class="GridLex-col-3_sm-4_xs-12_xss-12">
+						
+							<aside class="sidebar-wrapper">
+								
+								<div class="dashboard-sidebar">
+								
+									<div class="dashboard-avatar">
+									
+										<div class="image">
+											<img src="{%static 'images/man/01.jpg'%}" alt="Image" class="img-circle">
+										</div>
+										
+										<div class="content">
+											<h4>Jessica Nathan</h4>
+											<p class="texting">Paris, France</p>
+											<span class="label label-primary">Property Owner</span>
+										</div>
+										
+										<ul class="meta clearfix">
+											<li>
+												<div>
+													Member since:
+													<span>
+														Jan 25, 2016
+													</span>
+												</div>
+											</li>
+											<li>
+												<div>
+													Last login:
+													<span>
+														3 hours ago
+													</span>
+												</div>
+											</li>
+										</ul>
+										
+									</div>
+									
+									<div class="dashboard-menu-wrapper">
+									
+										<div class="navbar-vertical">
+										
+											<ul class="navbar-vertical-menu dashboard-menu-list" id="responsive-menu-dashboard">
+												<li>
+													<a href="#"><span class="icon"><i class="fa fa-pencil-square-o"></i></span> Booking</a>
+												</li>
+												<li>
+													<a href="#"><span class="icon"><i class="fa fa-heart"></i></span> Wishlist</a>
+												</li>
+												<li class="active">
+													<a href="#"><span class="icon"><i class="fa fa-cog"></i></span> Setting</a>
+													<ul>
+														<li><a href="#">Profile</a></li>
+														<li><a href="#">Billing</a></li>
+														<li><a href="#">Password</a></li>
+													</ul>
+												</li>
+												<li>
+													<a href="#"><span class="icon"><i class="fa fa-sign-out"></i></span> Logout</a>
+												</li>
+											</ul>
+										
+										</div>
+										
+										<div class="relative">
+											<div id="slicknav-mobile-dashboard"></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</aside>
+							
+						</div>
+						
+						<div class="GridLex-col-9_sm-8_xs-12_xss-12">
+							
+							<div class="content-wrapper">
+
+								<div class="dashboard-content">
+
+									<div class="row">
+									
+										<div class="col-xs-12 col-sm-10 col-md-9">
+											
+											<div class="dashboard-heading">
+											
+												<h3>Profile</h3>
+												<p>May she mrs furnished discourse extremely. Her itself active giving for expect vulgar months.</p>
+										
+											</div>
+											
+										</div>
+
+									</div>
+									
+									<form>
+									
+										<div class="row">
+										
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>First Name</label>
+													<input type="text" class="form-control" placeholder="First Name" />
+												</div>
+												
+											</div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>Last Name</label>
+													<input type="text" class="form-control" placeholder="Last Name" />
+												</div>
+												
+											</div>
+											
+											<div class="clear"></div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>Address</label>
+													<input type="text" class="form-control" placeholder="Address" />
+												</div>
+												
+											</div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>Street</label>
+													<input type="text" class="form-control" placeholder="Street" />
+												</div>
+												
+											</div>
+											
+											<div class="clear"></div>
+											
+											<div class="clear"></div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>City</label>
+													<input type="text" class="form-control" placeholder="City" />
+												</div>
+												
+											</div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>State</label>
+													<input type="text" class="form-control" placeholder="State" />
+												</div>
+												
+											</div>
+											
+											<div class="clear"></div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>Zip Code</label>
+													<input type="text" class="form-control" placeholder="Zip Code" />
+												</div>
+												
+											</div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>Country</label>
+													<select name="destination" class="select2-single form-control" data-placeholder="Choose Country">
+														<option value="">Choose Country</option>
+														<option value="Bangkok">Bangkok</option>
+														<option value="Austria">Austria</option>
+														<option value="Belgium">Belgium</option>
+														<option value="Bosnia">Bosnia</option>
+														<option value="Croatia">Croatia</option>
+														<option value="Czech Republic">Czech Republic</option>
+														<option value="Denmark">Denmark</option>
+														<option value="Egypt">Egypt</option>
+														<option value="England">England</option>
+														<option value="Estonia">Estonia</option>
+														<option value="Finland">Finland</option>
+														<option value="France">France</option>
+														<option value="Germany">Germany</option>
+														<option value="Greece">Greece</option>
+														<option value="Herzegovina">Herzegovina</option>
+														<option value="Hungary">Hungary</option>
+														<option value="Ireland">Ireland</option>
+														<option value="Italy">Italy</option>
+														<option value="Latvia">Latvia</option>
+														<option value="Liechtenstein">Liechtenstein</option>
+														<option value="Lithuania">Lithuania</option>
+														<option value="Luxembourg">Luxembourg</option>
+														<option value="Monaco">Monaco</option>
+														<option value="Montenegro">Montenegro</option>
+														<option value="Netherlands">Netherlands</option>
+														<option value="Northern Ireland">Northern Ireland</option>
+														<option value="Poland">Poland</option>
+														<option value="Portugal">Portugal</option>
+														<option value="Russia">Russia</option>
+														<option value="Scotland">Scotland</option>
+														<option value="Serbia">Serbia</option>
+														<option value="Slovakia">Slovakia</option>
+														<option value="Slovenia">Slovenia</option>
+														<option value="Spain">Spain</option>
+														<option value="Sweden">Sweden</option>
+														<option value="Switzerland">Switzerland</option>
+														<option value="Turkey">Turkey</option>
+														<option value="Vatican City">Vatican City</option>
+														<option value="Wales">Wales</option>
+													</select>
+												</div>
+												
+											</div>
+											
+											<div class="clear"></div>
+											
+											<div class="col-xss-12 col-xs-6 col-sm-6 col-md-5">
+											
+												<div class="form-group">
+												
+													<label>Phone Number</label>
+													<input type="password" class="form-control" placeholder="Phone Number" />
+												</div>
+												
+											</div>
+										
+											<div class="clear"></div>
+											
+											<div class="col-xs-12 col-sm-6 col-md-5">
+											
+												<button class="btn btn-danger">Save</button>
+											
+											</div>
+											
+										</div>
+										
+									</form>
+								
+								</div>
+
+							</div>
+							
+						</div>
+
+					</div>
+					
+				</div>
+                
+			</div>
+            
+			<div class="clear"></div>
+            
+			
+		</div>
+		
+	</div>
+
+<!-- start Back To Top -->
+<div id="back-to-top">
+   <a href="#"><i class="ion-ios-arrow-up"></i></a>
+</div>
+<!-- end Back To Top -->
+
+{% endblock %}
